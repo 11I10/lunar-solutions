@@ -1,1 +1,7 @@
-require.p
+require = module
+
+if require then
+  loader:show("lc", 5)
+else
+  l:notify(error)
+end
